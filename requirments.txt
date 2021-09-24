@@ -1,0 +1,11 @@
+# Các thư viện cần có để chạy GRPC trên python
+six
+wheel
+protobuf
+grpcio
+grpcio-tools
+coverage
+cython
+
+# Thư viện logs
+loguru

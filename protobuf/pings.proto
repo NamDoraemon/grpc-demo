@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package protobuf;
+
+message RequestMessage {
+    string msg = 1;
+}
+
+message ResponseMessage {
+    string msg = 1;
+}
+
+service Pings {
+    rpc Call (RequestMessage) returns (ResponseMessage);
+}
